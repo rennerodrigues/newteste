@@ -1,0 +1,39 @@
+.menu{
+    position: fixed;
+    width: 50px;
+    height: 100vh !important;
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    background-color: rgb(194, 198, 201);
+    color: gray;
+    
+
+}
+
+.log {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-bottom: 20px;  
+    color:gray
+
+}
+
+.list {
+    display: block;
+    color: gray;
+    background-color: rgb(194, 198, 201);
+    width: 45px;
+    height: 45px;
+    list-style:none;
+    margin-left: 5px;
+    padding: 0;
+   
+   
+}
+
+ 
+
+

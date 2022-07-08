@@ -1,0 +1,39 @@
+.trconfig {
+    padding: 130px;
+    color: black;
+    width: 100%;
+
+}
+
+.tableofc {
+    display: flex;
+}
+
+.tabletr {
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+.tabletr>th {
+
+    width: 130px;
+
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+
+}
+
+.col1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+
+/* 
+.doublesize {
+    grow: 2;
+} */
