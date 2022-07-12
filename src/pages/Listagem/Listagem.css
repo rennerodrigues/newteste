@@ -1,0 +1,66 @@
+.menufiltro {
+    padding-top: 53px;
+    margin-left: 50px;
+}
+
+.trconfig {
+
+    margin-top: 10px;
+    color: gray;
+    width: 100%;
+    margin-left: 54px;
+
+}
+
+.tableofc {
+    display: flex;
+}
+
+.tabletr {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    height: 46px;
+    align-items: center;
+    border-bottom: 1px solid rgb(194, 198, 201);;
+
+}
+
+.tabletr>th {
+
+    width: 130px;
+    text-align: left;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+
+}
+.imglist{
+    height: 15px;
+    width: 15px;
+    align-items: left;
+
+}
+
+.col0 {
+  
+      
+    flex: 0.5 !important;
+}
+.col1 {
+  
+      
+    flex: 1.5 !important;
+}
+
+.col5 {
+    flex: 1.2 !important;
+}
+.col6 {
+    flex: 1.2 !important;
+}
+.col7 {
+    flex: 1.2 !important;
+}
