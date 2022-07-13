@@ -35,6 +35,14 @@
     border: 1px solid;
 }
 
+.btn-radius-left {
+    border-radius: 8px 0 0 8px;
+}
+
+.btn-radius-right {
+    border-radius: 0 8px 8px 0;
+}
+
 .filter-right {
     margin-right: 15px;
     flex: 6;
@@ -46,7 +54,7 @@
 
 .imgmenu {
     width: 20px;
-    height: 30px;
+    height: 20px;
     margin: 0 10px;
 }
 

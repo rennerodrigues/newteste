@@ -20,7 +20,7 @@ function SideMenu() {
 
                 <ul className='list'>
 
-                    <li><a href="#"><img src={n} className="brdrbt log" alt="Unifi"></img></a></li>
+                    <li><a href="#" title="olá" className=" tooltip" ><img src={n}  className=" brdrbt log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={share} className="log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={snow} className="log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={db} className="log" alt="Unifi"></img></a></li>

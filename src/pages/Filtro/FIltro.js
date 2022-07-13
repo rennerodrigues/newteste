@@ -11,16 +11,16 @@ function Filtro() {
         <div className='principal'>
             <div className='first-filter'>
 
-                <div className='px-1'>All</div>
+                <div className='px-1 btn-radius-left'>All</div>
                 <div className='px-1'>Wireless</div>
-                <div className='px-1'>Wired</div>
+                <div className='px-1 btn-radius-right'>Wired</div>
 
             </div>
             <div className='second-filter'>
 
-                <div className='px-1'>All</div>
+                <div className='px-1 btn-radius-left'>All</div>
                 <div className='px-1'>Users</div>
-                <div className='px-1'>Guests</div>
+                <div className='px-1 btn-radius-right'>Guests</div>
 
             </div>
             <div className='filter-right'>

@@ -1,6 +1,6 @@
 .menufiltro {
     padding-top: 53px;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 .trconfig {
@@ -14,6 +14,7 @@
 
 .tableofc {
     display: flex;
+    flex-direction: column;
 }
 
 .tabletr {
@@ -45,13 +46,11 @@
 }
 
 .col0 {
-  
-      
-    flex: 0.5 !important;
+        
+    flex: 0.2 !important;
 }
 .col1 {
-  
-      
+        
     flex: 1.5 !important;
 }
 
@@ -64,3 +63,21 @@
 .col7 {
     flex: 1.2 !important;
 }
+
+.letter-green{
+    color: rgb(41, 216, 41);
+    font-weight: 600;
+    
+}
+
+.letter-blue{
+    color: rgb(67, 67, 214);
+    font-weight: 600;
+}
+
+.letter-purple{
+    color: rgb(173, 28, 173);
+    font-weight: 600;
+    
+}
+
