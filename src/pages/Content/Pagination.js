@@ -1,43 +1,37 @@
-jQuery(document).ready(function($){
-  $('#example').DataTable({
-    language: {
-      lengthMenu: "T'en veux _MENU_ par page",
-      info: "T'es bigleux ? c'est la page _PAGE_ sur _PAGES_",
-      search: "Cherche bouffon !",
-      paginate: {
-        first:      "Premier",
-        last:       "Précédent",
-        next:       "Suivant",
-        previous:   "Dernier"
-      }
-    }
-  });
-});
+/* import paginationFactory from 'react-bootstrap-table2-paginator'
 
 
+const customTotal = (from, to, size) => (
+  <span className="react-bootstrap-table-pagination-total">
+    Showing { from } to { to } of { size } Results
+  </span>
+);
 
+const options = {
+  paginationSize: 4,
+  pageStartIndex: 0,
+  // alwaysShowAllBtns: true, // Always show next and previous button
+  // withFirstAndLast: false, // Hide the going to First and Last page button
+  // hideSizePerPage: true, // Hide the sizePerPage dropdown always
+  // hidePageListOnlyOnePage: true, // Hide the pagination list when only one page
+  firstPageText: 'First',
+  prePageText: 'Back',
+  nextPageText: 'Next',
+  lastPageText: 'Last',
+  nextPageTitle: 'First page',
+  prePageTitle: 'Pre page',
+  firstPageTitle: 'Next page',
+  lastPageTitle: 'Last page',
+  showTotal: true,
+  paginationTotalRenderer: customTotal,
+  disablePageTitle: true,
+  sizePerPageList: [{
+    text: '5', value: 5
+  }, {
+    text: '10', value: 10
+  }, {
+    text: 'All', value: products.length
+  }] // A numeric array is also available. the purpose of above example is custom the text
+};
 
-/* 
-function Pagination() {
-  return (
-    <Pagination>
-      <Pagination.First />
-      <Pagination.Prev />
-      <Pagination.Item>{1}</Pagination.Item>
-      <Pagination.Ellipsis />
-
-      <Pagination.Item>{10}</Pagination.Item>
-      <Pagination.Item>{11}</Pagination.Item>
-      <Pagination.Item active>{12}</Pagination.Item>
-      <Pagination.Item>{13}</Pagination.Item>
-      <Pagination.Item disabled>{14}</Pagination.Item>
-
-      <Pagination.Ellipsis />
-      <Pagination.Item>{20}</Pagination.Item>
-      <Pagination.Next />
-      <Pagination.Last />
-    </Pagination>
-  );
-}
-
-export default Pagination; */
+<BootstrapTable keyField='id' data={ products } columns={ columns } pagination={ paginationFactory(options) } /> */

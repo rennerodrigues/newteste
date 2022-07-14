@@ -20,12 +20,12 @@ function SideMenu() {
 
                 <ul className='list'>
 
-                    <li><a href="#" title="olá" className=" tooltip" ><img src={n}  className=" brdrbt log" alt="Unifi"></img></a></li>
+                    <li><a href="#" title="NETWORK" className=" tooltip" ><img src={n}  className=" brdrbt log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={share} className="log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={snow} className="log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={db} className="log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={pc} className="log" alt="Unifi"></img></a></li>
-                    <li><a href="/Filtro"><img src={graph} className="log" alt="Unifi"></img></a></li>
+                    <li><a href="/Filtro" title="CLIENTS" className=" sideactv sdhover tooltip"><img src={graph} className="log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={bulb} className="brdrbt log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={calendar} className="log" alt="Unifi"></img></a></li>
                     <li><a href="#"><img src={sino} className="log" alt="Unifi"></img></a></li>

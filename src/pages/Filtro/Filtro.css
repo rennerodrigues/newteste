@@ -22,6 +22,11 @@
 
 }
 
+.first-filter div a, .second-filter div a {
+    color: gray;
+    
+    text-decoration: none;
+}
 .second-filter {
     border-left: 1px solid rgb(194, 198, 201);
     margin-left: 10px;
@@ -50,6 +55,17 @@
     align-items: center;
     display: flex;
 
+}
+.filter-right div a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+
+.filterhover:active {
+    color: rgb(67, 67, 214);
+    background-color: #98c3ed;
 }
 
 .imgmenu {

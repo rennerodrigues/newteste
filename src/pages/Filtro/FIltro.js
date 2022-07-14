@@ -9,24 +9,24 @@ function Filtro() {
     return (
 
         <div className='principal'>
-            <div className='first-filter'>
+            <div className='first-filter '>
 
-                <div className='px-1 btn-radius-left'>All</div>
-                <div className='px-1'>Wireless</div>
-                <div className='px-1 btn-radius-right'>Wired</div>
+                <div className='px-1 filterhover btn-radius-left'><a href='#' >All</a> </div>
+                <div className='px-1'><a href='#' >Wireless</a></div>
+                <div className='px-1 btn-radius-right'> <a href='#' >Wired</a></div>
 
             </div>
             <div className='second-filter'>
 
-                <div className='px-1 btn-radius-left'>All</div>
-                <div className='px-1'>Users</div>
-                <div className='px-1 btn-radius-right'>Guests</div>
+                <div className='px-1 btn-radius-left'><a href='#' >All</a></div>
+                <div className='px-1'><a href='#' >Users</a></div>
+                <div className='px-1 btn-radius-right'><a href='#' >Guests</a></div>
 
             </div>
             <div className='filter-right'>
 
-                <div className='bx-1'>+ Add Client</div>
-                <div className='bx-2' >All configured clients</div>
+                <div className='bx-1'><a href='#' >+ Add Client</a></div>
+                <div className='bx-2' ><a href='#' >All configured clients</a></div>
                 <div><a href="/"><img src={search} className="imgmenu" alt="Unifi"></img></a> </div>
                 <div><a href="/"><img src={menu1} className="imgmenu" alt="Unifi"></img></a> </div>
                 <div><a href="/"><img src={menu2} className="imgmenu" alt="Unifi"></img></a> </div>
